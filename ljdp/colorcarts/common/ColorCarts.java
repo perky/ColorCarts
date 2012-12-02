@@ -25,13 +25,13 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod(modid="ljdpColorCarts", name="Color Carts", version="0.1.5")
+@Mod(modid="ljdpColorCarts", name="Color Carts", version="1.0.0")
 @NetworkMod(clientSideRequired=true, serverSideRequired=false, channels={"ljdpColorCarts"}, packetHandler=PacketHandler.class)
 public class ColorCarts {
 	@Instance("ljdpColorCarts")
 	public static ColorCarts instance;
 	
-	@SidedProxy(clientSide="ljdp.colorcarts.client.ClientProxy", serverSide="ljdp.colorcarts.CommonProxy")
+	@SidedProxy(clientSide="ljdp.colorcarts.client.ClientProxy", serverSide="ljdp.colorcarts.common.CommonProxy")
 	public static CommonProxy proxy;
 	
 	public static Block blockMinecartColorDetector;
