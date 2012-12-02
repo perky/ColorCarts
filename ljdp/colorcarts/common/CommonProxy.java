@@ -8,9 +8,10 @@ import net.minecraft.src.World;
 
 public class CommonProxy implements IGuiHandler {
 
-	public static String CART_PNG  = "/ljdp/colorcarts/cart.png";
-	public static String ITEMS_PNG  = "/ljdp/colorcarts/items.png";
-	public static String BLOCKS_PNG = "/ljdp/colorcarts/blocks.png";
+	public static String CART_PNG  = "/ljdp/colorcarts/textures/cart.png";
+	public static String ITEMS_PNG  = "/ljdp/colorcarts/textures/items.png";
+	public static String BLOCKS_PNG = "/ljdp/colorcarts/textures/blocks.png";
+	public static String COLORBUTTONS_PNG = "/ljdp/colorcarts/textures/colorbuttons.png";
 	
 	// Client stuff
 	public void registerRenderers() {

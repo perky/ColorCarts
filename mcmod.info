@@ -1,0 +1,17 @@
+[
+{
+  "modid": "ljdpColorCarts",
+  "name": "Color Carts",
+  "description": "Adds 16 colored minecarts and block to detect them.",
+  "version": "1.0.0",
+  "mcversion": "1.4.5",
+  "logoFile": "",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Ljdp"],
+  "credits": "",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

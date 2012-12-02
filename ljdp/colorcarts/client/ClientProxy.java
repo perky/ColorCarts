@@ -13,6 +13,7 @@ public class ClientProxy extends CommonProxy {
 		MinecraftForgeClient.preloadTexture(CART_PNG);
 		MinecraftForgeClient.preloadTexture(ITEMS_PNG);
 		MinecraftForgeClient.preloadTexture(BLOCKS_PNG);
+		MinecraftForgeClient.preloadTexture(COLORBUTTONS_PNG);
 		RenderingRegistry.registerEntityRenderingHandler(EntityColorMinecart.class, new RenderColorMinecart());
 	}
 	
